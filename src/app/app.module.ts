@@ -54,6 +54,7 @@ import {Pb} from './cell-pb/pb.component';
 import {Rm} from './cell-rm/rm.component';
 import {Cm} from './cell-cm/cm.component';
 import {Nv} from './cell-nv/nv.component';
+import { DataComponent } from './data/data.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -108,7 +109,8 @@ import {Nv} from './cell-nv/nv.component';
     Pb,
     Rm,
     Cm,
-    Nv
+    Nv,
+    DataComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,387 @@
+<div class="" cell-p=[-t145-b15-l15-r15]>
+    <h1><u>Passing Variable Value With innerText</u></h1>
+    <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15]>
+        <div cell-f=[-s25-c4-w9] class="" innerText="inner"></div>
+    </div>
+    <!--Variable Binding Inside Html-->
+    <h1><u>Variable Assigning</u></h1>
+    <h2>Variable Binding Inside Html</h2>
+    <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15]>
+        <div cell-f=[-s25-w9-c2] cell-vr=[-hb]> $that$ = $a$ , $was$ = $c=d$ And $that$ = $b$
+        </div>
+    </div>
+    <h2>Variable Binding Inside Html With Individual Referancess</h2>
+    <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15]>
+        <div cell-f=[-s25-w9-c2]> <span cell-f=[-s35-w9-c4] cell-vr=[-hb]>$that$</span> = <span cell-f=[-s35-w9-c4]
+                cell-vr=[-hb]>$a$</span> , <span cell-f=[-s35-w9-c4] cell-vr=[-hb]>$was$</span> = <span
+                cell-f=[-s35-w9-c4] cell-vr=[-hb]>$c$</span> And <span cell-f=[-s35-w9-c4]
+                cell-vr=[-hb]>$that$</span> =
+            <span cell-f=[-s35-w9-c4] cell-vr=[-hb]>$b$</span>
+        </div>
+    </div>
+    <!--Class Binding With Click Event-->
+    <h1><u>Class Variable Assigning</u></h1>
+    <h2>Class Binding With Click Event For Element</h2>
+    <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15]>
+        <button vc-click="d=!d;text=d?'about':'contact'" vc="className=d?'red':'blue'">about</button>
+        <div cell-f=[-s25-w9] cell-vr=[-hb] vc="className=d?'blue':'red'"> $that$ = $a$ , $was$ = $c=d$ And $that$ =
+            $b$
+        </div>
+    </div>
+    <h2>Class Binding With Click Event For Multiple Elements</h2>
+    <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15]>
+        <button vc-click="e=!e;text=e?'about':'contact'" vc="className=e?'red':'blue'">about</button>
+        <div cell-f=[-s25-w9-c2]> <span cell-f=[-s35-w9-c4] cell-vr=[-hb]
+                vc="className=e?'blue':'red'">$that$</span> =
+            <span cell-f=[-s35-w9-c4] cell-vr=[-hb] vc="className=e?'red':'blue'">$a$</span> , <span
+                cell-f=[-s35-w9-c4] cell-vr=[-hb] vc="className=e?'blue':'red'">$was$</span> = <span
+                cell-f=[-s35-w9-c4] cell-vr=[-hb] vc="className=e?'red':'blue'">$c$</span> And <span
+                cell-f=[-s35-w9-c4] cell-vr=[-hb] vc="className=e?'blue':'red'">$that$</span> =
+            <span cell-f=[-s35-w9-c4] cell-vr=[-hb] vc="className=e?'red':'blue'">$b$</span>
+        </div>
+    </div>
+    <h2>Binding Variable As Inner Html On Click</h2>
+    <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15]>
+        <button vc-click="g=!g;text=g?'about':'contact'">about</button>
+        <div class="" innerText="text=g?'about':'contact'"></div>
+    </div>
+    <h2>Two Way Binding</h2>
+    <div cell-cm=[-bo5(4)-bg5-ra10-pa15] class="tway">
+        <input cell-tw=[-tw0:]>
+        <div cell-tw=[-tb0:] class=""></div>
+    </div>
+    <div cell-cm=[-bo5(4)-bg5-ra10-pa15] class="tway">
+        <input cell-tw=[-tw1:]>
+        <div cell-tw=[-tb1:] class=""></div>
+
+        <input cell-tw=[-tw2:] type="text" value="">
+        <div cell-tw=[-tb2:] class="input"></div>
+    </div>
+    <h2>Two Way Binding With Variable</h2>
+    <div cell-cm=[-bo5(4)-bg5-ra10-pa15] class="tway">
+        <input tway="tex">
+        <div class="" innerHtml="tex"></div>
+        <input tway="tex1">
+        <div class="" innerHtml="tex1"></div>
+    </div>
+
+    <h2>Two Way Binding With Filter search</h2>
+    <div cell-cm=[-bo5(4)-bg5-ra10-pa15] class="tway">
+        <h4>Filter search For Array Of String Values</h4>
+        <input type="text" name="city" list="cityname" filter="namesArr" filType="arr">
+        <div class="" filData="namesArr"></div>
+        <div class="" filErr='namesArr'></div>
+        <h4>Filter search For Array Of Objects</h4>
+        <input type="text" name="city" list="cityname" filter="fullName" filType="element.lastName">
+        <div class="" filData="fullName"></div>
+        <div class="" filErr='fullName'></div>
+    </div>
+
+    <div class="" cell-p=[-t145-b15-l15-r15]>
+        <!--If Condition Rendering-->
+        <h1><u>If Condition</u></h1>
+        <h2>If Condition With Nested Looping</h2>
+        <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-if=[-if1:]>
+            <div class="" cond_0="a==b">
+                <p>This Is Nested If0</p>
+                <div class="" cond_1="a < 1 && b < 1">
+                    <p>This Is Nested If1</p>
+                    <div class="" cond_2="a < 5 && b < 5">
+                        <p>This Is Nested If2</p>
+                        <div class="" cond_3="(a+b)%2==0">
+                            <p>This Is Nested If3</p>
+                            <div class="" cond_4="a==4">
+                                <p>This Is Nested If4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="" else_0>Else-0</div>
+            <div class="" else_1>Else-1</div>
+            <div class="" else_2>Else-2</div>
+            <div class="" else_3>Else-3</div>
+            <div class="" else_4>Else-4</div>
+        </div>
+        <h2>If Condition With Nested Looping</h2>
+        <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-if=[-if2:]>
+            <div class="" cond_0="a==b">
+                <p>This Is Nested If0</p>
+                <div class="" cond_1="a > 1 && b > 1">
+                    <p>This Is Nested If1</p>
+                    <div class="" cond_2="a > 5 && b > 5">
+                        <p>This Is Nested If2</p>
+                        <div class="" cond_3="(a+b)%2==0">
+                            <p>This Is Nested If3</p>
+                            <div class="" cond_4="a!=4">
+                                <p>This Is Nested If4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="" else_0>Else-0</div>
+            <div class="" else_1>Else-1</div>
+            <div class="" else_2>Else-2</div>
+            <div class="" else_3>Else-3</div>
+            <div class="" else_4>Else-4</div>
+        </div>
+        <h2>If Condition With Nested Looping</h2>
+        <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-if=[-if3:]>
+            <div class="" cond_0="a==b">
+                <p>This Is Nested If0</p>
+                <div class="" cond_1="a > 1 && b > 1">
+                    <p>This Is Nested If1</p>
+                    <div class="" cond_2="a < 5 && b < 5">
+                        <p>This Is Nested If2</p>
+                        <div class="" cond_3="(a+b)%2!=0">
+                            <p>This Is Nested If3</p>
+                            <div class="" cond_4="a!=4">
+                                <p>This Is Nested If4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="" else_0>Else-0</div>
+            <div class="" else_1>Else-1</div>
+            <div class="" else_2>Else-2</div>
+            <div class="" else_3>Else-3</div>
+            <div class="" else_4>Else-4</div>
+        </div>
+        <h2>If Condition With Nested Looping</h2>
+        <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-if=[-if4:]>
+            <div class="" cond_0="a==b">
+                <p>This Is Nested If0</p>
+                <div class="" cond_1="a > 1 && b > 1">
+                    <p>This Is Nested If1</p>
+                    <div class="" cond_2="a < 5 && b < 5">
+                        <p>This Is Nested If2</p>
+                        <div class="" cond_3="(a+b)%2==0">
+                            <p>This Is Nested If3</p>
+                            <div class="" cond_4="a!=4">
+                                <p>This Is Nested If4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="" else_0>Else-0</div>
+            <div class="" else_1>Else-1</div>
+            <div class="" else_2>Else-2</div>
+            <div class="" else_3>Else-3</div>
+            <div class="" else_4>Else-4</div>
+        </div>
+        <h2>If Condition With Nested Looping</h2>
+        <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-if=[-if5:]>
+            <div class="" cond_0="a==b">
+                <p>This Is Nested If0</p>
+                <div class="" cond_1="a > 1 && b > 1">
+                    <p>This Is Nested If1</p>
+                    <div class="" cond_2="a < 5 && b < 5">
+                        <p>This Is Nested If2</p>
+                        <div class="" cond_3="(a+b)%2==0">
+                            <p>This Is Nested If3</p>
+                            <div class="" cond_4="a==4">
+                                <p>This Is Nested If4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="" else_0>Else-0</div>
+            <div class="" else_1>Else-1</div>
+            <div class="" else_2>Else-2</div>
+            <div class="" else_3>Else-3</div>
+            <div class="" else_4>Else-4</div>
+        </div>
+        <h1><u>If Condition On Click</u></h1>
+        <h2>If Condition With Nested Looping On Click</h2>
+        <button class="btn cond-btn" cell-if=[-ce1:]>Click</button>
+        <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-if=[-ca1:]>
+            <div class="" cond_0="a==b">
+                <p>This Is Nested If0</p>
+                <div class="" cond_1="a < 1 && b < 1">
+                    <p>This Is Nested If1</p>
+                    <div class="" cond_2="a < 5 && b < 5">
+                        <p>This Is Nested If2</p>
+                        <div class="" cond_3="(a+b)%2==0">
+                            <p>This Is Nested If3</p>
+                            <div class="" cond_4="a==4">
+                                <p>This Is Nested If4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="" else_0>Else-0</div>
+            <div class="" else_1>Else-1</div>
+            <div class="" else_2>Else-2</div>
+            <div class="" else_3>Else-3</div>
+            <div class="" else_4>Else-4</div>
+        </div>
+        <h2>If Condition With Nested Looping</h2>
+        <button class="btn cond-btn" cell-if=[-ce2:]>Click</button>
+        <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-if=[-ca2:]>
+            <div class="" cond_0="a==b">
+                <p>This Is Nested If0</p>
+                <div class="" cond_1="a > 1 && b > 1">
+                    <p>This Is Nested If1</p>
+                    <div class="" cond_2="a > 5 && b > 5">
+                        <p>This Is Nested If2</p>
+                        <div class="" cond_3="(a+b)%2==0">
+                            <p>This Is Nested If3</p>
+                            <div class="" cond_4="a!=4">
+                                <p>This Is Nested If4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="" else_0>Else-0</div>
+            <div class="" else_1>Else-1</div>
+            <div class="" else_2>Else-2</div>
+            <div class="" else_3>Else-3</div>
+            <div class="" else_4>Else-4</div>
+        </div>
+        <h2>If Condition With Nested Looping</h2>
+        <button class="btn cond-btn" cell-if=[-ce3:]>Click</button>
+        <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-if=[-ca3:]>
+            <div class="" cond_0="a==b">
+                <p>This Is Nested If0</p>
+                <div class="" cond_1="a > 1 && b > 1">
+                    <p>This Is Nested If1</p>
+                    <div class="" cond_2="a < 5 && b < 5">
+                        <p>This Is Nested If2</p>
+                        <div class="" cond_3="(a+b)%2!=0">
+                            <p>This Is Nested If3</p>
+                            <div class="" cond_4="a!=4">
+                                <p>This Is Nested If4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="" else_0>Else-0</div>
+            <div class="" else_1>Else-1</div>
+            <div class="" else_2>Else-2</div>
+            <div class="" else_3>Else-3</div>
+            <div class="" else_4>Else-4</div>
+        </div>
+        <h2>If Condition With Nested Looping</h2>
+        <button class="btn cond-btn" cell-if=[-ce4:]>Click</button>
+        <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-if=[-ca4:]>
+            <div class="" cond_0="a==b">
+                <p>This Is Nested If0</p>
+                <div class="" cond_1="a > 1 && b > 1">
+                    <p>This Is Nested If1</p>
+                    <div class="" cond_2="a < 5 && b < 5">
+                        <p>This Is Nested If2</p>
+                        <div class="" cond_3="(a+b)%2==0">
+                            <p>This Is Nested If3</p>
+                            <div class="" cond_4="a!=4">
+                                <p>This Is Nested If4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="" else_0>Else-0</div>
+            <div class="" else_1>Else-1</div>
+            <div class="" else_2>Else-2</div>
+            <div class="" else_3>Else-3</div>
+            <div class="" else_4>Else-4</div>
+        </div>
+        <h2>If Condition With Nested Looping</h2>
+        <button class="btn cond-btn" cell-if=[-ce5:]>Click</button>
+        <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-if=[-ca5:]>
+            <div class="" cond_0="a==b">
+                <p>This Is Nested If0</p>
+                <div class="" cond_1="a > 1 && b > 1">
+                    <p>This Is Nested If1</p>
+                    <div class="" cond_2="a < 5 && b < 5">
+                        <p>This Is Nested If2</p>
+                        <div class="" cond_3="(a+b)%2==0">
+                            <p>This Is Nested If3</p>
+                            <div class="" cond_4="a==4">
+                                <p>This Is Nested If4</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="" else_0>Else-0</div>
+            <div class="" else_1>Else-1</div>
+            <div class="" else_2>Else-2</div>
+            <div class="" else_3>Else-3</div>
+            <div class="" else_4>Else-4</div>
+        </div>
+    </div>
+
+    <!--Json Data Rendering-->
+    <h1><u>Deep Nested Looping</u></h1>
+    <h2>Json Data Rendering With Looping</h2>
+    <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-dt1:-u2-lp3]>
+        <div cell-dt=[-n0] nest_0="key">
+            <div cell-dt=[-n1] nest_1="nest_0[i].fieldset">
+                <div cell-dt=[-n2] nest_2="nest_1[j].fieldset">
+                    <div cell-dt=[-n3] nest_3="nest_2[k].field" append>
+                        <div cell-cm=[-bo4(5)-bg4-ra10-pa15-mb5] class="data-block">
+                            <div>Names</div>
+                            <div cell-dt=[-v1] class="data-col">nest_3[l].label.plain</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>Json Un Defined Data ( having same key name but different values like array and object ) Rendering With
+        Looping
+    </h2>
+    <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-dt2:-u2-lp2]>
+        <div cell-dt=[-n0] nest_0="key">
+            <div cell-dt=[-n1] nest_1="nest_0[i].fieldset">
+                <div cell-dt=[-n2] cond="nest_1[j].fieldset!=undefined && nest_1[j].fieldset.fieldset!=undefined"
+                    nest_2="nest_1[j].fieldset.fieldset.field" append>
+                    <div cell-cm=[-bo4(5)-bg4-ra10-pa15-mb5] class="data-block">
+                        <div>Names</div>
+                        <div cell-dt=[-v1] class="data-col">nest_2[k].choices.choice.label.plain
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h2>Json Data Rendering With Looping</h2>
+    <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-dt3:-u3-lp0]>
+        <div cell-dt=[-n0] nest_0="key" append>
+            <div cell-cm=[-bo4(5)-bg4-ra10-pa15-mb5] class="data-block">
+                <p>Data Block Repeating</p>
+                <div cell-dt=[-v1] class="data-col">nest_0[i].id</div>
+                <div cell-dt=[-v2] class="data-col">nest_0[i].userId</div>
+                <div cell-dt=[-v3] class="data-col">nest_0[i].name</div>
+                <div cell-dt=[-v4] class="data-col">nest_0[i].accountNo</div>
+                <div cell-dt=[-v5] class="data-col">nest_0[i].location</div>
+                <div cell-dt=[-v6] class="data-col">nest_0[i].deposit</div>
+                <div cell-dt=[-v7] class="data-col">nest_0[i].balance</div>
+                <div cell-dt=[-v8] class="data-col">nest_0[i].date</div>
+            </div>
+        </div>
+    </div>
+    <h2>Json Data Rendering With Looping</h2>
+    <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-dt4:-u2-lp3]>
+        <div cell-dt=[-n0] nest_0="key">
+            <div cell-dt=[-n1] nest_1="nest_0[i].fieldset">
+                <div cell-dt=[-n2] nest_2="nest_1[j].fieldset">
+                    <div cell-dt=[-n3] nest_3="nest_2[k].field" append>
+                        <div cell-cm=[-bo4(5)-bg4-ra10-pa15-mb5] class="data-block">
+                            <div>Names</div>
+                            <div cell-dt=[-v1] class="data-col">nest_3[l].label.plain</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

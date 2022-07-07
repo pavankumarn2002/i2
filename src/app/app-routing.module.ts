@@ -53,6 +53,7 @@ import {Pb} from './cell-pb/pb.component';
 import {Rm} from './cell-rm/rm.component';
 import {Cm} from './cell-cm/cm.component';
 import {Nv} from './cell-nv/nv.component';
+import { DataComponent } from './data/data.component';
 
 const routes: Routes = [
   {path:"login",component:LoginComponent},
@@ -107,7 +108,8 @@ const routes: Routes = [
   {path:"cell-pb",component:Pb},
   {path:"cell-rm",component:Rm},
   {path:"cell-cm",component:Cm},
-  {path:"cell-nv",component:Nv}
+  {path:"cell-nv",component:Nv},
+  {path:"data",component:DataComponent}
 ];
 
 @NgModule({
