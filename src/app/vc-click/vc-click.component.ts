@@ -16,7 +16,6 @@ export class VcClickComponent implements OnInit {
 
   }
   ngAfterViewInit() {
- 
     this.ex.load(
       "https://res.cloudinary.com/veraion9/raw/upload/v1657167602/i2/jq%28data%29/data.js",
       "https://res.cloudinary.com/veraion9/raw/upload/v1657016045/i2/jq%28new%29/index.js",
