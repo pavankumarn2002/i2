@@ -1,0 +1,36 @@
+.data-col {
+    background-color: white;
+    border-radius: 5px;
+    padding: 7px;
+    margin-bottom: 7px;
+}
+.red {
+    color: red !important
+}
+
+.blue {
+    color: blue !important
+}
+.cond-btn {
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 13px;
+    padding: 7px;
+    width: 75px;
+    text-align: center;
+    margin: 15px 0px 15px 0px;
+    border: 0px solid;
+
+}
+
+.cond-btn:hover {
+    background-color: rgb(49, 101, 199);
+    color: rgb(163, 241, 255);
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 13px;
+    box-shadow: 4px 4px 4px rgb(160, 187, 238, 0.7);
+    ;
+}

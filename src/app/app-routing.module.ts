@@ -53,8 +53,12 @@ import {Pb} from './cell-pb/pb.component';
 import {Rm} from './cell-rm/rm.component';
 import {Cm} from './cell-cm/cm.component';
 import {Nv} from './cell-nv/nv.component';
-import { DataComponent } from './data/data.component';
-
+import { InnerTextComponent } from './inner-text/inner-text.component';
+import { Vr } from './cell-vr/cell-vr.component';
+import { VcClickComponent } from './vc-click/vc-click.component';
+import { TwoWayComponent } from './two-way/two-way.component';
+import { If } from './cell-if/cell-if.component';
+import { Dt } from './cell-dt/cell-dt.component';
 const routes: Routes = [
   {path:"login",component:LoginComponent},
   {path:"cdn",component:Cdn},
@@ -109,7 +113,12 @@ const routes: Routes = [
   {path:"cell-rm",component:Rm},
   {path:"cell-cm",component:Cm},
   {path:"cell-nv",component:Nv},
-  {path:"data",component:DataComponent}
+  {path:"inner-text",component:InnerTextComponent},
+  {path:"cell-vr",component:Vr},
+  {path:"vc-click",component:VcClickComponent},
+  {path:"two-way",component:TwoWayComponent},
+  {path:"cell-if",component:If},
+  {path:"cell-dt",component:Dt}
 ];
 
 @NgModule({

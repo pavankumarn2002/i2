@@ -55,6 +55,12 @@ import {Rm} from './cell-rm/rm.component';
 import {Cm} from './cell-cm/cm.component';
 import {Nv} from './cell-nv/nv.component';
 import { DataComponent } from './data/data.component';
+import { If } from './cell-if/cell-if.component';
+import { Dt } from './cell-dt/cell-dt.component';
+import { InnerTextComponent } from './inner-text/inner-text.component';
+import { TwoWayComponent } from './two-way/two-way.component';
+import { VcClickComponent } from './vc-click/vc-click.component';
+import { Vr } from './cell-vr/cell-vr.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -110,7 +116,13 @@ import { DataComponent } from './data/data.component';
     Rm,
     Cm,
     Nv,
-    DataComponent
+    DataComponent,
+    If,
+    Dt,
+    InnerTextComponent,
+    TwoWayComponent,
+    VcClickComponent,
+    Vr
   ],
   imports: [
     BrowserModule,
