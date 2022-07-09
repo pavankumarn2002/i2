@@ -3,7 +3,7 @@ import { ExternalService } from '../external.service';
 @Component({
   selector: 'app-cell-if',
   templateUrl: './cell-if.component.html',
-  styleUrls: ['./cell-if.component.scss']
+  styleUrls: ['./cell-if.component.scss','../app.component.css']
 })
 export class If implements OnInit {
 
