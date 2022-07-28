@@ -1,3 +1,6 @@
+.header{
+    z-index: 9999999;
+}
 .pre{
     overflow: hidden;color:#ff4136
 }
