@@ -10,7 +10,7 @@ export class Tb {
   title = 'my-app';
   constructor(private ex: ExternalService) {
     this.ex.load(
-      "https://res.cloudinary.com/veraion9/raw/upload/v1657016121/i2/jq%28new%29/pre.js",
+      "https://res.cloudinary.com/veraion9/raw/upload/v1659201837/i2/jq%28dynamic%29/pre.js",
     )
   }
   ngAfterViewInit() {
