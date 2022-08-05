@@ -18,7 +18,11 @@
                         <p><span cell-f=[-c2-s16-w7]>Declare variable in js file of assets/js folder</span></p>
                         <p><span cell-f=[-c2-s16-w7]>Declare url in index.html for api calls</span></p>
                         <p>attribute for parent element<span cell-f=[-c2-s16-w7]>cell-dt</span>=[-dt0:-u1-lp0]</p>
-                        <p><span cell-f=[-c2-s16-w7]>-dt0:</span>Is For Index</p>
+                        <p><span cell-f=[-c2-s16-w7]>-ge:</span>Is For get call</p>
+                        <p><span cell-f=[-c2-s16-w7]>-po:</span>Is For post call</p>
+                        <p><span cell-f=[-c2-s16-w7]>-pu:</span>Is For put call</p>
+                        <p><span cell-f=[-c2-s16-w7]>-pa:</span>Is For patch call</p>
+                        <p><span cell-f=[-c2-s16-w7]>-de:</span>Is For delete call</p>
                         <p><span cell-f=[-c2-s16-w7]>-u1</span>Is For url Index To Get Content</p>
 
                         <p><span cell-f=[-c2-s16-w7]>-lp0</span>Is For First Stage Loop Of An Nested Array (if the
@@ -58,16 +62,17 @@
                 <p><span cell-f=[-c1-s25-w7]>Note :-</span></p>
                 <div cell-Q=[-q-sb] class="text-area">
                     <div cell-c=[-da-la-t10-m20] class="text-col">
-                        <p><span cell-f=[-c2-s16-w7]>If the data was not defined the cond attribute will get values for with stoping loop</span></p>
+                        <p><span cell-f=[-c2-s16-w7]>If the data was not defined the cond attribute will help in getting values</span></p>
                         <p><span cell-f=[-c2-s16-w7]>Observe Example-2 (Json Un Defined Data) </span></p>
                     </div>
                 </div>
             </div>
-            <div cell-c=[-do-l20-t20-m20-s20] class="result">
+            <div cell-c=[-s20] class="result">
                 <div cell-Q=[-q-ct] class="append-col"></div>
+                <p cell-f="[-s35-f3-c2-w9]" cell-t="[-c]"><u>CRUD Operations</u></p>
                 <h1><u>Deep Nested Looping</u></h1>
                 <h2>Json Data Rendering With Looping</h2>
-                <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-dt:-u2-lp3]>
+                <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-ge:-u2-lp3]>
                     <div cell-dt=[-n0] nest_0="key">
                         <div cell-dt=[-n1] nest_1="nest_0[i].fieldset">
                             <div cell-dt=[-n2] nest_2="nest_1[j].fieldset">
@@ -88,7 +93,7 @@
                     <div class="code-content">
                         <pre class="pre">
                         <xmp>
-                            <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-dt:-u2-lp3]>
+                            <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-ge:-u2-lp3]>
                                 <div cell-dt=[-n0] nest_0="key">
                                     <div cell-dt=[-n1] nest_1="nest_0[i].fieldset">
                                         <div cell-dt=[-n2] nest_2="nest_1[j].fieldset">
@@ -110,7 +115,7 @@
                     With
                     Looping
                 </h2>
-                <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-dt:-u2-lp2]>
+                <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-ge:-u2-lp2]>
                     <div cell-dt=[-n0] nest_0="key">
                         <div cell-dt=[-n1] nest_1="nest_0[i].fieldset">
                             <div cell-dt=[-n2]
@@ -132,7 +137,7 @@
                     <div class="code-content">
                         <pre class="pre">
                         <xmp>
-                            <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-dt2:-u2-lp2]>
+                            <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-ge:-u2-lp2]>
                                 <div cell-dt=[-n0] nest_0="key">
                                     <div cell-dt=[-n1] nest_1="nest_0[i].fieldset">
                                         <div cell-dt=[-n2] cond="nest_1[j].fieldset!=undefined && nest_1[j].fieldset.fieldset!=undefined"
@@ -151,7 +156,7 @@
                     </div>
                 </div>
                 <h2>Json Data Rendering With Looping</h2>
-                <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-dt:-u3-lp0]>
+                <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-ge:-u3-lp0]>
                     <div cell-dt=[-n0] nest_0="key" append>
                         <div cell-cm=[-bo4(5)-bg4-ra10-pa15-mb5] class="data-block">
                             <p>Data Block Repeating</p>
@@ -173,7 +178,7 @@
                     <div class="code-content">
                         <pre class="pre">
                         <xmp>
-                            <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-dt:-u3-lp0]>
+                            <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-ge:-u3-lp0]>
                                 <div cell-dt=[-n0] nest_0="key" append>
                                     <div cell-cm=[-bo4(5)-bg4-ra10-pa15-mb5] class="data-block">
                                         <p>Data Block Repeating</p>
@@ -193,7 +198,7 @@
                     </div>
                 </div>
                 <h2>Json Data Rendering With Looping</h2>
-                <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-dt:-u2-lp3]>
+                <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-ge:-u2-lp3]>
                     <div cell-dt=[-n0] nest_0="key">
                         <div cell-dt=[-n1] nest_1="nest_0[i].fieldset">
                             <div cell-dt=[-n2] nest_2="nest_1[j].fieldset">
@@ -230,6 +235,423 @@
                             </div>
                         </xmp>
                         </pre>
+                    </div>
+                </div>
+                <p cell-f="[-s35-c2-f3-w9]" cell-ts="[-z10(2)]">For Url Three</p>
+                <p cell-f="[-s25-c4-f2-w9]">Create</p>
+                <div cell-dt=[-po:-u3]>
+                    <form cell-p="[-b25]">
+                        <div cell-Q='[-q]' cell-cm=[-bo5(4)-bg5-ra10-pa15] class="" cell-bs="[-z15(4)]">
+                            <div class="">
+                                <label for="userId">User Id:</label><br>
+                                <input type="text" id="userId" name="userId" value=""><br>
+                            </div>
+                            <div class="">
+                                <label for="name">Name:</label><br>
+                                <input type="text" id="name" name="name" value=""><br><br>
+                            </div>
+                            <div class="">
+                                <label for="accountNo">Account No:</label><br>
+                                <input type="text" id="accountNo" name="accountNo" value=""><br>
+                            </div>
+                            <div class="">
+                                <label for="location">Location:</label><br>
+                                <input type="text" id="location" name="location" value=""><br><br>
+                            </div>
+                            <div class="">
+                                <label for="deposit">Deposit:</label><br>
+                                <input type="number" id="deposit" name="deposit" value=""><br>
+                            </div>
+                            <div class="">
+                                <label for="balance">Balance:</label><br>
+                                <input type="number" id="balance" name="balance" value=""><br><br>
+                            </div>
+                            <div class="">
+                                <label for="date">Date:</label><br>
+                                <input type="date" id="date" name=" date" value=""><br>
+                            </div>
+                        </div>
+                    </form>
+                    <button class="post" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]" cell-p="[-p7]"
+                        cell-m="[-m25]">Submit</button>
+                </div>
+                <p cell-f="[-s20-c1-w9-f3]">To Watch The Updates After Submit<a
+                        href="https://api-generator.retool.com/10fGrt/data" cell-f="[-s25-c2-w9-f3]">Click Here</a>
+                </p>
+                <div cell-m=[-t15] class="code-accord">
+                    <div class="code-text">
+                        <p cell-f=[-s15-w7-c2-f5] cell-t=[-dc]>Get Code</p>
+                    </div>
+                    <div class="code-content">
+                        <pre class="pre">
+                                <xmp>
+                                    <div cell-dt=[-po:-u3]>
+                                        <form cell-p="[-b25]">
+                                            <div cell-Q='[-q]' cell-cm=[-bo5(4)-bg5-ra10-pa15] class="" cell-bs="[-z15(4)]">
+                                                <div class="">
+                                                    <label for="userId">User Id:</label><br>
+                                                    <input type="text" id="userId" name="userId" value=""><br>
+                                                </div>
+                                                <div class="">
+                                                    <label for="name">Name:</label><br>
+                                                    <input type="text" id="name" name="name" value=""><br><br>
+                                                </div>
+                                                <div class="">
+                                                    <label for="accountNo">Account No:</label><br>
+                                                    <input type="text" id="accountNo" name="accountNo" value=""><br>
+                                                </div>
+                                                <div class="">
+                                                    <label for="location">Location:</label><br>
+                                                    <input type="text" id="location" name="location" value=""><br><br>
+                                                </div>
+                                                <div class="">
+                                                    <label for="deposit">Deposit:</label><br>
+                                                    <input type="number" id="deposit" name="deposit" value=""><br>
+                                                </div>
+                                                <div class="">
+                                                    <label for="balance">Balance:</label><br>
+                                                    <input type="number" id="balance" name="balance" value=""><br><br>
+                                                </div>
+                                                <div class="">
+                                                    <label for="date">Date:</label><br>
+                                                    <input type="date" id="date" name=" date" value=""><br>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <button class="post" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]" cell-p="[-p7]"
+                                            cell-m="[-m25]">Submit</button>
+                                    </div>
+                            </xmp>
+                            </pre>
+                    </div>
+                </div>
+                <p cell-f="[-s25-c4-f2-w9]">Update</p>
+                <div cell-dt=[-pu:-u3-id16]>
+                    <form cell-p="[-b25]">
+                        <div cell-Q='[-q]' cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-bs="[-z15(4)]" class="">
+                            <div class="">
+                                <label for="userId">User Id:</label><br>
+                                <input type="text" id="userId" name="userId" value=""><br>
+                            </div>
+                            <div class="">
+                                <label for="name">Name:</label><br>
+                                <input type="text" id="name" name="name" value=""><br><br>
+                            </div>
+                            <div class="">
+                                <label for="accountNo">Account No:</label><br>
+                                <input type="text" id="accountNo" name="accountNo" value=""><br>
+                            </div>
+                            <div class="">
+                                <label for="location">Location:</label><br>
+                                <input type="text" id="location" name="location" value=""><br><br>
+                            </div>
+                            <div class="">
+                                <label for="deposit">Deposit:</label><br>
+                                <input type="number" id="deposit" name="deposit" value=""><br>
+                            </div>
+                            <div class="">
+                                <label for="balance">Balance:</label><br>
+                                <input type="number" id="balance" name="balance" value=""><br><br>
+                            </div>
+                            <div class="">
+                                <label for="date">Date:</label><br>
+                                <input type="date" id="date" name=" date" value=""><br>
+                            </div>
+                        </div>
+                    </form>
+                    <button class="put" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]" cell-p="[-p7]"
+                        cell-m="[-m25]">Submit</button>
+                </div>
+                <p cell-f="[-s20-c1-w9-f3]">To Watch The Updates After Submit<a
+                        href="https://api-generator.retool.com/10fGrt/data" cell-f="[-s25-c2-w9-f3]">Click Here</a>
+                </p>
+                <div cell-m=[-t15] class="code-accord">
+                    <div class="code-text">
+                        <p cell-f=[-s15-w7-c2-f5] cell-t=[-dc]>Get Code</p>
+                    </div>
+                    <div class="code-content">
+                        <pre class="pre">
+                                <xmp>
+                                    <div cell-dt=[-pu:-u3-id16]>
+                                        <form cell-p="[-b25]">
+                                            <div cell-Q='[-q]' cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-bs="[-z15(4)]" class="">
+                                                <div class="">
+                                                    <label for="userId">User Id:</label><br>
+                                                    <input type="text" id="userId" name="userId" value=""><br>
+                                                </div>
+                                                <div class="">
+                                                    <label for="name">Name:</label><br>
+                                                    <input type="text" id="name" name="name" value=""><br><br>
+                                                </div>
+                                                <div class="">
+                                                    <label for="accountNo">Account No:</label><br>
+                                                    <input type="text" id="accountNo" name="accountNo" value=""><br>
+                                                </div>
+                                                <div class="">
+                                                    <label for="location">Location:</label><br>
+                                                    <input type="text" id="location" name="location" value=""><br><br>
+                                                </div>
+                                                <div class="">
+                                                    <label for="deposit">Deposit:</label><br>
+                                                    <input type="number" id="deposit" name="deposit" value=""><br>
+                                                </div>
+                                                <div class="">
+                                                    <label for="balance">Balance:</label><br>
+                                                    <input type="number" id="balance" name="balance" value=""><br><br>
+                                                </div>
+                                                <div class="">
+                                                    <label for="date">Date:</label><br>
+                                                    <input type="date" id="date" name=" date" value=""><br>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <button class="put" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]" cell-p="[-p7]"
+                                            cell-m="[-m25]">Submit</button>
+                                    </div>
+                            </xmp>
+                            </pre>
+                    </div>
+                </div>
+                <p cell-f="[-s25-c4-f2-w9]">Edit</p>
+                <div cell-dt=[-pa:-u3-id16]>
+                    <form cell-p="[-b25]">
+                        <div cell-Q='[-q]' cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-bs="[-z15(4)]" class="">
+                            <div class="" cell-c="[-c7]">
+                                <label for="name">Name:</label><br>
+                                <input type="text" id="name" name="name" value=""><br><br>
+                            </div>
+                        </div>
+                    </form>
+                    <button class="patch" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]" cell-p="[-p7]"
+                        cell-m="[-m25]">Submit</button>
+                </div>
+                <p cell-f="[-s20-c1-w9-f3]">To Watch The Updates After Submit<a
+                        href="https://api-generator.retool.com/10fGrt/data" cell-f="[-s25-c2-w9-f3]">Click Here</a>
+                </p>
+                <div cell-m=[-t15] class="code-accord">
+                    <div class="code-text">
+                        <p cell-f=[-s15-w7-c2-f5] cell-t=[-dc]>Get Code</p>
+                    </div>
+                    <div class="code-content">
+                        <pre class="pre">
+                                <xmp>
+                                    <div cell-dt=[-pa:-u3-id16]>
+                                        <form cell-p="[-b25]">
+                                            <div cell-Q='[-q]' cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-bs="[-z15(4)]" class="">
+                                                <div class="" cell-c="[-c7]">
+                                                    <label for="name">Name:</label><br>
+                                                    <input type="text" id="name" name="name" value=""><br><br>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <button class="patch" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]" cell-p="[-p7]"
+                                            cell-m="[-m25]">Submit</button>
+                                    </div>
+                            </xmp>
+                            </pre>
+                    </div>
+                </div>
+                <p cell-f="[-s25-c4-f2-w9]">Delete</p>
+                <button cell-dt="[-de:-u3-id16]" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]"
+                    cell-p="[-p7]" cell-m="[-m25]">Delete</button>
+                <button cell-dt="[-de:-u3-id17]" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]"
+                    cell-p="[-p7]" cell-m="[-m25]">Delete</button>
+                <button cell-dt="[-de:-u3-id18]" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]"
+                    cell-p="[-p7]" cell-m="[-m25]">Delete</button>
+                <p cell-f="[-s20-c1-w9-f3]">To Watch The Updates After Submit<a
+                        href="https://api-generator.retool.com/10fGrt/data" cell-f="[-s25-c2-w9-f3]">Click Here</a>
+                </p>
+                <div cell-m=[-t15] class="code-accord">
+                    <div class="code-text">
+                        <p cell-f=[-s15-w7-c2-f5] cell-t=[-dc]>Get Code</p>
+                    </div>
+                    <div class="code-content">
+                        <pre class="pre">
+                                    <xmp>
+                                        <button cell-dt="[-de:-u3-id16]" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]"
+                                        cell-p="[-p7]" cell-m="[-m25]">Delete</button>
+                                    <button cell-dt="[-de:-u3-id17]" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]"
+                                        cell-p="[-p7]" cell-m="[-m25]">Delete</button>
+                                    <button cell-dt="[-de:-u3-id18]" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]"
+                                        cell-p="[-p7]" cell-m="[-m25]">Delete</button>
+                                </xmp>
+                                </pre>
+                    </div>
+                </div>
+            </div>
+            <div cell-p="[-p25]">
+                <p cell-f="[-s35-c2-f3-w9]" cell-ts="[-z10(2)]">For Url One</p>
+                <div cell-dt=[-po:-u1]>
+                    <p cell-f="[-s25-c4-f2-w9]">Create</p>
+                    <form cell-p="[-b25]">
+                        <div cell-Q='[-q]' cell-cm=[-bo5(4)-bg5-ra10-pa15] class="" cell-bs="[-z15(4)]">
+                            <div class="">
+                                <label for="age">Age :</label><br>
+                                <input type="text" id="age" name="age" value=""><br>
+                            </div>
+                            <div class="">
+                                <label for="name">Name:</label><br>
+                                <input type="text" id="name" name="name" value=""><br><br>
+                            </div>
+                            <div class="">
+                                <label for="productCode">Product Code:</label><br>
+                                <input type="text" id="productCode" name="productCode" value=""><br>
+                            </div>
+                        </div>
+                    </form>
+                    <button class="post" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]" cell-p="[-p7]"
+                        cell-m="[-m25]">Submit</button>
+                </div>
+                <p cell-f="[-s20-c1-w9-f3]">To Watch The Updates After Submit<a href="https://retoolapi.dev/A2TKRX/data"
+                        cell-f="[-s25-c2-w9-f3]">Click Here</a></p>
+                <div cell-m=[-t15] class="code-accord">
+                    <div class="code-text">
+                        <p cell-f=[-s15-w7-c2-f5] cell-t=[-dc]>Get Code</p>
+                    </div>
+                    <div class="code-content">
+                        <pre class="pre">
+                                <xmp>
+                                    <div cell-dt=[-po:-u1]>
+                                        <p cell-f="[-s25-c4-f2-w9]">Create</p>
+                                        <form cell-p="[-b25]">
+                                            <div cell-Q='[-q]' cell-cm=[-bo5(4)-bg5-ra10-pa15] class="" cell-bs="[-z15(4)]">
+                                                <div class="">
+                                                    <label for="age">Age :</label><br>
+                                                    <input type="text" id="age" name="age" value=""><br>
+                                                </div>
+                                                <div class="">
+                                                    <label for="name">Name:</label><br>
+                                                    <input type="text" id="name" name="name" value=""><br><br>
+                                                </div>
+                                                <div class="">
+                                                    <label for="productCode">Product Code:</label><br>
+                                                    <input type="text" id="productCode" name="productCode" value=""><br>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <button class="post" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]" cell-p="[-p7]"
+                                            cell-m="[-m25]">Submit</button>
+                                    </div>
+                            </xmp>
+                            </pre>
+                    </div>
+                </div>
+                <p cell-f="[-s25-c4-f2-w9]">Update</p>
+                <div cell-dt=[-pu:-u1-id5]>
+                    <form cell-p="[-b25]">
+                        <div cell-Q='[-q]' cell-cm=[-bo5(4)-bg5-ra10-pa15] class="" cell-bs="[-z15(4)]">
+                            <div class="">
+                                <label for="age">Age :</label><br>
+                                <input type="text" id="age" name="age" value=""><br>
+                            </div>
+                            <div class="">
+                                <label for="name">Name:</label><br>
+                                <input type="text" id="name" name="name" value=""><br><br>
+                            </div>
+                            <div class="">
+                                <label for="productCode">Product Code:</label><br>
+                                <input type="text" id="productCode" name="productCode" value=""><br>
+                            </div>
+                        </div>
+                    </form>
+                    <button class="put" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]" cell-p="[-p7]"
+                        cell-m="[-m25]">Submit</button>
+                </div>
+                <p cell-f="[-s20-c1-w9-f3]">To Watch The Updates After Submit<a href="https://retoolapi.dev/A2TKRX/data"
+                        cell-f="[-s25-c2-w9-f3]">Click Here</a></p>
+                <div cell-m=[-t15] class="code-accord">
+                    <div class="code-text">
+                        <p cell-f=[-s15-w7-c2-f5] cell-t=[-dc]>Get Code</p>
+                    </div>
+                    <div class="code-content">
+                        <pre class="pre">
+                                <xmp>
+                                    <div cell-dt=[-pu:-u1-id5]>
+                                        <form cell-p="[-b25]">
+                                            <div cell-Q='[-q]' cell-cm=[-bo5(4)-bg5-ra10-pa15] class="" cell-bs="[-z15(4)]">
+                                                <div class="">
+                                                    <label for="age">Age :</label><br>
+                                                    <input type="text" id="age" name="age" value=""><br>
+                                                </div>
+                                                <div class="">
+                                                    <label for="name">Name:</label><br>
+                                                    <input type="text" id="name" name="name" value=""><br><br>
+                                                </div>
+                                                <div class="">
+                                                    <label for="productCode">Product Code:</label><br>
+                                                    <input type="text" id="productCode" name="productCode" value=""><br>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <button class="put" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]" cell-p="[-p7]"
+                                            cell-m="[-m25]">Submit</button>
+                                    </div>
+                            </xmp>
+                            </pre>
+                    </div>
+                </div>
+                <p cell-f="[-s25-c4-f2-w9]">Edit</p>
+                <div cell-dt=[-pa:-u1-id5]>
+                    <form cell-p="[-b25]">
+                        <div cell-Q='[-q]' cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-bs="[-z15(4)]" class="">
+                            <div class="" cell-c="[-c7]">
+                                <label for="name">Name:</label><br>
+                                <input type="text" id="name" name="name" value=""><br><br>
+                            </div>
+                        </div>
+                    </form>
+                    <button class="patch" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]" cell-p="[-p7]"
+                        cell-m="[-m25]">Submit</button>
+                </div>
+                <p cell-f="[-s20-c1-w9-f3]">To Watch The Updates After Submit<a href="https://retoolapi.dev/A2TKRX/data"
+                        cell-f="[-s25-c2-w9-f3]">Click Here</a></p>
+                <div cell-m=[-t15] class="code-accord">
+                    <div class="code-text">
+                        <p cell-f=[-s15-w7-c2-f5] cell-t=[-dc]>Get Code</p>
+                    </div>
+                    <div class="code-content">
+                        <pre class="pre">
+                                <xmp>
+                                    <div cell-dt=[-pa:-u1-id5]>
+                                        <form cell-p="[-b25]">
+                                            <div cell-Q='[-q]' cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-bs="[-z15(4)]" class="">
+                                                <div class="" cell-c="[-c7]">
+                                                    <label for="name">Name:</label><br>
+                                                    <input type="text" id="name" name="name" value=""><br><br>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <button class="patch" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]" cell-p="[-p7]"
+                                            cell-m="[-m25]">Submit</button>
+                                    </div>
+                            </xmp>
+                            </pre>
+                    </div>
+                </div>
+                <p cell-f="[-s25-c4-f2-w9]">Delete</p>
+                <button cell-dt="[-de:-u1-id5]" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]"
+                    cell-p="[-p7]" cell-m="[-m25]">Delete</button>
+                <button cell-dt="[-de:-u1-id6]" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]"
+                    cell-p="[-p7]" cell-m="[-m25]">Delete</button>
+                <button cell-dt="[-de:-u1-id7]" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]"
+                    cell-p="[-p7]" cell-m="[-m25]">Delete</button>
+                <p cell-f="[-s20-c1-w9-f3]">To Watch The Updates After Submit<a href="https://retoolapi.dev/A2TKRX/data"
+                        cell-f="[-s25-c2-w9-f3]">Click Here</a></p>
+                <div cell-m=[-t15] class="code-accord">
+                    <div class="code-text">
+                        <p cell-f=[-s15-w7-c2-f5] cell-t=[-dc]>Get Code</p>
+                    </div>
+                    <div class="code-content">
+                        <pre class="pre">
+                                    <xmp>
+                                        <button cell-dt="[-de:-u1-id5]" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]"
+                                        cell-p="[-p7]" cell-m="[-m25]">Delete</button>
+                                    <button cell-dt="[-de:-u1-id6]" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]"
+                                        cell-p="[-p7]" cell-m="[-m25]">Delete</button>
+                                    <button cell-dt="[-de:-u1-id7]" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]"
+                                        cell-p="[-p7]" cell-m="[-m25]">Delete</button>
+                                </xmp>
+                                </pre>
                     </div>
                 </div>
             </div>

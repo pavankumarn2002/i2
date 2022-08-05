@@ -323,7 +323,7 @@
         <!--Json Data Rendering-->
         <h1><u>Deep Nested Looping</u></h1>
         <h2>Json Data Rendering With Looping</h2>
-        <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-dt1:-u2-lp3]>
+        <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-ge:-u2-lp3]>
             <div cell-dt=[-n0] nest_0="key">
                 <div cell-dt=[-n1] nest_1="nest_0[i].fieldset">
                     <div cell-dt=[-n2] nest_2="nest_1[j].fieldset">
@@ -340,7 +340,7 @@
         <h2>Json Un Defined Data ( having same key name but different values like array and object ) Rendering With
             Looping
         </h2>
-        <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-dt2:-u2-lp2]>
+        <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-ge:-u2-lp2]>
             <div cell-dt=[-n0] nest_0="key">
                 <div cell-dt=[-n1] nest_1="nest_0[i].fieldset">
                     <div cell-dt=[-n2] cond="nest_1[j].fieldset!=undefined && nest_1[j].fieldset.fieldset!=undefined"
@@ -355,7 +355,7 @@
             </div>
         </div>
         <h2>Json Data Rendering With Looping</h2>
-        <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-dt3:-u3-lp0]>
+        <div class="" cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-m=[-mt15] cell-dt=[-ge:-u3-lp0]>
             <div cell-dt=[-n0] nest_0="key" append>
                 <div cell-cm=[-bo4(5)-bg4-ra10-pa15-mb5] class="data-block">
                     <p>Data Block Repeating</p>
@@ -370,5 +370,70 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div cell-p="[-p25]">
+        <p cell-f="[-s35-c2-f3-w9]" cell-ts="[-z10(2)]">For Url One</p>
+        <div cell-dt=[-po:-u1]>
+            <p cell-f="[-s25-c4-f2-w9]">Create</p>
+            <form cell-p="[-b25]">
+                <div cell-Q='[-q]' cell-cm=[-bo5(4)-bg5-ra10-pa15] class="" cell-bs="[-z15(4)]">
+                    <div class="">
+                        <label for="age">Age :</label><br>
+                        <input type="text" id="age" name="age" value=""><br>
+                    </div>
+                    <div class="">
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" value=""><br><br>
+                    </div>
+                    <div class="">
+                        <label for="productCode">Product Code:</label><br>
+                        <input type="text" id="productCode" name="productCode" value=""><br>
+                    </div>
+                </div>
+            </form>
+            <button class="post" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]" cell-p="[-p7]"
+                cell-m="[-m25]">Submit</button>
+        </div>
+        <p cell-f="[-s25-c4-f2-w9]">Update</p>
+        <div cell-dt=[-pu:-u1-id5]>
+            <form cell-p="[-b25]">
+                <div cell-Q='[-q]' cell-cm=[-bo5(4)-bg5-ra10-pa15] class="" cell-bs="[-z15(4)]">
+                    <div class="">
+                        <label for="age">Age :</label><br>
+                        <input type="text" id="age" name="age" value=""><br>
+                    </div>
+                    <div class="">
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" value=""><br><br>
+                    </div>
+                    <div class="">
+                        <label for="productCode">Product Code:</label><br>
+                        <input type="text" id="productCode" name="productCode" value=""><br>
+                    </div>
+                </div>
+            </form>
+            <button class="put" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]" cell-p="[-p7]"
+                cell-m="[-m25]">Submit</button>
+        </div>
+        <p cell-f="[-s25-c4-f2-w9]">Edit</p>
+        <div cell-dt=[-pa:-u1-id5]>
+            <form cell-p="[-b25]">
+                <div cell-Q='[-q]' cell-cm=[-bo5(4)-bg5-ra10-pa15] cell-bs="[-z15(4)]" class="">
+                    <div class="" cell-c="[-c7]">
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" value=""><br><br>
+                    </div>
+                </div>
+            </form>
+            <button class="patch" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]" cell-p="[-p7]"
+                cell-m="[-m25]">Submit</button>
+        </div>
+        <p cell-f="[-s25-c4-f2-w9]">Delete</p>
+        <button cell-dt="[-de:-u1-id5]" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]" cell-p="[-p7]"
+            cell-m="[-m25]">Delete</button>
+        <button cell-dt="[-de:-u1-id6]" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]" cell-p="[-p7]"
+            cell-m="[-m25]">Delete</button>
+        <button cell-dt="[-de:-u1-id7]" cell-f="[-f2-c3-s14-w9] " cell-bg=[-c2] cell-bs="[-z10(2)]" cell-p="[-p7]"
+            cell-m="[-m25]">Delete</button>
     </div>
 </div>

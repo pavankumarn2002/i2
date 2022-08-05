@@ -24,7 +24,7 @@ export class Dt implements OnInit {
       "https://res.cloudinary.com/veraion9/raw/upload/v1658909046/i2/jq%28dynamic%29/input.js",
       "https://res.cloudinary.com/veraion9/raw/upload/v1658912742/i2/jq%28dynamic%29/slide.js",
       "https://res.cloudinary.com/veraion9/raw/upload/v1658942369/i2/jq%28dynamic%29/tabs.js",
-      "https://res.cloudinary.com/veraion9/raw/upload/v1658908944/i2/jq%28dynamic%29/data.js",
+      "https://res.cloudinary.com/veraion9/raw/upload/v1659683791/data.js",
     );
   }
 

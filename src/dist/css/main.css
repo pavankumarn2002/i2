@@ -73,7 +73,8 @@
 }
 
 .content-sec .content .code-content {
-  overflow: auto !important;
+  overflow-x: auto !important;
+  overflow-y: auto !important;
   height: 250px;
   background-color: #b2ebeb;
 }
