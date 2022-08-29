@@ -12,12 +12,12 @@ export class Absolute {
   }
   ngAfterViewInit() {
     this.ex.load(
-      "https://res.cloudinary.com/veraion9/raw/upload/v1658938994/i2/jq%28dynamic%29/doc.js",
-      "https://res.cloudinary.com/veraion9/raw/upload/v1658908893/i2/jq%28dynamic%29/cell.js",
-      "https://res.cloudinary.com/veraion9/raw/upload/v1658938953/i2/jq%28dynamic%29/index.js",
-      "https://res.cloudinary.com/veraion9/raw/upload/v1658909046/i2/jq%28dynamic%29/input.js",
-      "https://res.cloudinary.com/veraion9/raw/upload/v1658912742/i2/jq%28dynamic%29/slide.js",
-      "https://res.cloudinary.com/veraion9/raw/upload/v1658942369/i2/jq%28dynamic%29/tabs.js",
+      "http://i2frontend.orgfree.com/i2frontend/jq(Angular)/doc.js",
+      "http://i2frontend.orgfree.com/i2frontend/jq(Angular)/cell.js",
+      "http://i2frontend.orgfree.com/i2frontend/jq(Angular)/index.js",
+      "http://i2frontend.orgfree.com/i2frontend/jq(Angular)/input.js",
+      "http://i2frontend.orgfree.com/i2frontend/jq(Angular)/slide.js",
+      "http://i2frontend.orgfree.com/i2frontend/jq(Angular)/tabs.js",
     );
   }
 } 
